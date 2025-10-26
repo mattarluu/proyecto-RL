@@ -228,7 +228,7 @@ def train_agent_curriculum(n_episodes_per_stage=500):
             ('adaptive', 'Adaptive'),
             ('fixed', 'Fixed')
         ]
-    plot_curriculum_results(all_rewards, all_wins, curriculum_stages)
+    #plot_curriculum_results(all_rewards, all_wins, curriculum_stages)
     
     
     return agent, all_rewards, all_wins
